@@ -1,0 +1,29 @@
+omnistack11
+
+npm init -y
+	-cria o package json
+	
+npx create-react-app frontend
+	-cria os arquivos para o react com o nome da pasta frontend
+	
+	
+	
+	
+	
+	Query Builder knex.js
+	
+	
+	
+	// Adicionar no knexfile para fazer o "versionamento"
+    migrations:{
+      directory: './src/database/migrations'
+    }	
+	
+	npx knex => exibe todos os comandos
+	npx knex rollback => desfaz a última alteração
+	
+	
+	
+	
+	
+	npm install cors => quem poderá acessar a aplicação
