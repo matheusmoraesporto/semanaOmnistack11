@@ -27,3 +27,11 @@ npx create-react-app frontend
 	
 	
 	npm install cors => quem poderá acessar a aplicação
+	
+	npm install react-icons => pacote de icones do react
+	
+	
+	npm install react-router-dom => pacote de rotas od react
+	
+	
+	<Route path="/" exact component={Logon}/> --o exact faz com que o caminho para esta rota seja necessariamente este
