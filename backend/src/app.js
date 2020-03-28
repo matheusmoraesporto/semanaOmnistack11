@@ -2,6 +2,8 @@ const express = require('express');
 
 const cors = require('cors');
 
+const { errors } = require('celebrate');
+
 // Importa as rotas
 const routes = require('./routes');
 
@@ -19,5 +21,7 @@ app.use(cors(
 app.use(express.json());
 app.use(routes);
 
-// seta a porta da aplicação
-app.listen(3333);
+// Tratamento dos erros encontrados pelo celebrate
+app.use(errors());
+
+module.exports = app;
